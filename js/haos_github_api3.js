@@ -31,17 +31,23 @@ function display_github_user_data(username_to_querry_api_with) {
   requestJSON(user_api_string, function(return_json_object) {
 
     if (return_json_object.message == "Not Found") {
-      display_info_title("<h2>No User Info Found</h2>");
+      display_user_info("<h2>No User Info Found</h2>");
     }
     else {
-      display_info_title("<h2>User Info Found</h2>");
+      display_user_info("<h2>User Info Found</h2>");
+      
+      var user_info_tester = "";
+      
+      display_user_info("<h2>User Info Found</h2>");
       } // end else statement
   }); // end requestJSON Ajax call
 }
 
-function display_info_title(string_to_display){
+function display_user_info(string_to_display){
   $('#ghapidata1').html(string_to_display);
 }
+
+
 
 /*
 function display_github_user_data(username_to_querry_api_with) {
