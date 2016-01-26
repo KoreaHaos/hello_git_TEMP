@@ -1,6 +1,6 @@
 To use GitHub's Ruby toolkit for the API:
-gem install octokit
 
+gem install octokit
 
 Figuring out the GitHub API
 
