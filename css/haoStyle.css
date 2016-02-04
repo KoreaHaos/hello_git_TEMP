@@ -183,7 +183,30 @@ a:hover {
   margin-bottom: 15px;
 }
 
-#basicDataButton, #ghsubmitbtn1, #ghsubmitbtn2, #ghsubmitbtn3 {
+#basicData {
+  display: inline-block;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+  background-color: #eaeaea;
+  background-image: -webkit-linear-gradient(#fafafa, #eaeaea);
+  background-image: -moz-linear-gradient(#fafafa, #eaeaea);
+  background-image: -ms-linear-gradient(top, #fafafa, #eaeaea);
+  background-image: -o-linear-gradient(top, #fafafa, #eaeaea);
+  background-image: linear-gradient(#fafafa, #eaeaea);
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  border-bottom-color: #c5c5c5;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  
+}
+
+#basicDataButton, #GitHubPagesButton, #resetButton {
   display: inline-block;
   padding: 8px 18px;
   font-size: 14px;
@@ -204,7 +227,7 @@ a:hover {
   -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
-#ghsubmitbtn:hover, #ghsubmitbtn1:hover, #ghsubmitbtn2:hover, #ghsubmitbtn3:hover {
+#basicDataButton:hover, #GitHubPagesButton:hover, #resetButton:hover {
   background-color: #dadada;
   background-image: -webkit-linear-gradient(#eaeaea, #dadada);
   background-image: -moz-linear-gradient(#eaeaea, #dadada);
@@ -213,7 +236,7 @@ a:hover {
   background-image: linear-gradient(#eaeaea, #dadada);
   border-color: #ccc #ccc #b5b5b5;
 }
-#ghsubmitbtn:active, #ghsubmitbtn1:active, #ghsubmitbtn2:active, #ghsubmitbtn3:active {
+#basicDataButton:active, #GitHubPagesButton:active, #resetButton:active {
   background-color:#dadada;
   background-image: none;
   border-color: #b5b5b5;

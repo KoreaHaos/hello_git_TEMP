@@ -1,0 +1,19 @@
+[browser dump 2-4-16]
+
+https://api.github.com/users/KoreaHaos
+
+https://avatars.githubusercontent.com/u/14045324?v=3
+
+https://developer.github.com/guides/getting-started/
+
+https://assets-cdn.github.com/images/icons/emoji/unicode/1f527.png?v5
+https://assets-cdn.github.com/images/icons/emoji/unicode/1f459.png?v5
+
+https://api.github.com/
+https://api.github.com/emojis
+https://api.github.com/authorizations
+https://api.github.com/users
+
+https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=agithub%20api%20get%20current%20caller&oq=agithub%20api%20get%20current%20caller&aqs=chrome..69i57.6941j0j8
+https://www.google.com/search?espv=2&q=queried&spell=1&sa=X&ved=0ahUKEwjakKGF_9zKAhUjF6YKHTRVALsQvwUIGigA&biw=1693&bih=785
+https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=using&oq=useing&aqs=chrome.1.69i57j0l5.2343j0j7

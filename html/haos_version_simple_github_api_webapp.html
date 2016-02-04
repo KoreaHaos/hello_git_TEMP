@@ -4,31 +4,36 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html">
-  <title>Deconstructed Github API Webapp</title>
-  <meta name="author" content="Jake Rocheleau">
-  <meta name="author" content="Deconstructed by : Ben Haos">
-  <link rel="stylesheet" type="text/css" media="all" href="../css/styles.css">
+  <title>GitHub Pages WebApp</title>
+  <meta name="author" content="Original Source : Jake Rocheleau">
+  <meta name="author" content="Modifications by : Ben Haos">
+  <link rel="stylesheet" type="text/css" media="all" href="../css/haoStyle.css">
   <script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
 </head>
 
 <body>
   <div id="w">
-    <h1>Deconstructed Github API Webapp</h1>
-    <p>This web app is a modification of code found
-      <a href="http://blog.teamtreehouse.com/code-a-simple-github-api-webapp-using-jquery-ajax" target="_blank">here</a>.</p>
+    <h1>Github API WebApp Example</h1>
 
-    <input type="text" name="ghusername" id="ghusername" placeholder="Enter Github Username Here ...">
+    <div id="basicGitHubAPIdata"></div>
+    <div id="basicGitHubUSERdata"></div>
+    
+    <div></div>
+    <input type="text" name="ghusername" id="ghusername" placeholder="">
 
-    <a href="#" id="ghsubmitbtn1">GH-Pages</a>
-    <a href="#" id="ghsubmitbtn2">Basic User Data</a>
-    <a href="#" id="ghsubmitbtn3">Reset Page</a>
+    <a href="#" id="basicDataButton">Basic User Data</a>
+    <a href="#" id="GitHubPagesButton">GH-Pages</a>
+    <a href="#" id="resetButton">Reset Page</a>
 
     <div id="ghapidata1"></div>
     <div id="ghapidata2" class="clearfix"></div>
 
+    <p>This web app is a modification of code found
+      <a href="http://blog.teamtreehouse.com/code-a-simple-github-api-webapp-using-jquery-ajax" target="_blank">here</a>.</p>
   </div>
 </body>
-  <script type="text/javascript" src="../js/haos_github_api2.js"></script>
+<script type="text/javascript" src="../js/haos_github_api2.js"></script>
+
 </html>
 
 <!-- source = http://blog.teamtreehouse.com/code-a-simple-github-api-webapp-using-jquery-ajax -->
