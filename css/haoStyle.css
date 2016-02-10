@@ -121,6 +121,10 @@ a:hover {
   padding: 3px;
 }
 
+.ghcontent {
+  font-size: 1.2em;
+}
+
 .repolist {
   display: block;
   clear: both;
@@ -247,7 +251,7 @@ a:hover {
 
 /* clearfix */
 .clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
-.clearfix { display: inline-block; }
+/*.clearfix { display: inline-block; }*/
  
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
